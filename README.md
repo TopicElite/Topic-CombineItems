@@ -6,7 +6,7 @@ If your inventory script does not support this function, this is the perfect scr
 
 You have in this script the possibility to combine two items to one or three to one. I named the variables and functions after the needed information, as well as what they do.
 
-To note is in the “client.lua” in line 19. Here you have to replace your progressbar, if you don’t have this progressbar 4 (https://github.com/Mobius1/rprogress 4).
+To note is in the “client.lua” in line 19. Here you have to replace your progressbar, if you don’t have this progressbar (https://github.com/Mobius1/rprogress).
 
 Please do not republish this script or sell it on other platforms.
 
