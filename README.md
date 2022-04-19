@@ -3,7 +3,7 @@
 Good day, I have finished something small here.
 If your inventory script does not support this function, this is the perfect script!
 
-**[DOWNLOAD:](https://github.com/TopicElite/7combineItems):** [https://github.com/TopicElite/7combineItems](https://github.com/TopicElite/7combineItems)
+**[DOWNLOAD](https://topic-scripts.tebex.io/package/5066610)**
 
 You have in this script the possibility to combine two items to one or three to one. I named the variables and functions after the needed information, as well as what they do.
 
