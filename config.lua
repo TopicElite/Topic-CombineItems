@@ -8,10 +8,16 @@ Config.CombineItems = {
         progressbarDuration = 10000,-- in ms
         animationClass = 'mp_arresting',
         animation = 'a_uncuff',
-        usableItem = 'marijuana' -- The item must be listed in NeedItems as well.
+        usableItem = 'marijuana', -- The item must be listed in NeedItems as well.
         needItems = {
-            ['marijuana'] = 1,
-            ['papers'] = 1,
+            ['marijuana'] = {
+                count = 1,
+                remove = true, -- remove the Item after combinding.
+            },
+            ['papers'] = {
+                count = 1,
+                remove = true, -- remove the Item after combinding.
+            },
         }
     }
 }

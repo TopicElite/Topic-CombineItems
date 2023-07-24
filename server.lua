@@ -10,7 +10,7 @@ for k, v in pairs(Config.CombineItems) do
 
         for k2, v2 in pairs(v.needItems) do
             local item = xPlayer.getInventoryItem(tostring(k2))
-            if item.count >= v2 then
+            if item.count >= v2.count then
             else
                 haveAllItems = false
                 if first then
@@ -34,7 +34,9 @@ RegisterNetEvent('7combineItems:removeItems')
 AddEventHandler('7combineItems:removeItems', function(itemConfig)
     local xPlayer = ESX.GetPlayerFromId(source)
     for k, v in pairs(itemConfig.needItems) do
-        xPlayer.removeInventoryItem(k, v)
+        if v.remove then
+            xPlayer.removeInventoryItem(k, v.count)
+        end
     end
     xPlayer.addInventoryItem(itemConfig.resultItem, itemConfig.resultItemCount) 
 end)
